@@ -273,6 +273,7 @@ namespace DynamoCoreWpfTests
         #endregion
 
         [Test]
+        [Category("Failure")]
         public void PreviewBubble_HiddenDummyVerticalBoundaries()
         {
             Open(@"core\DetailedPreviewMargin_Test.dyn");
